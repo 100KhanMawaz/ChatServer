@@ -1,0 +1,45 @@
+.alertStyle{
+    width: 24%;
+    position: fixed;
+    top: 0%;
+    left: 38%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px 0 rgba(95, 225, 98, 0.766);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.alertStyle button{
+    color: white;
+    background-color: rgba(95, 225, 98, 0.766);
+    border-radius: 50%;
+    width: 20%;
+    border: none;
+    transition: all 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.alertStyle button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+@media (max-aspect-ratio: 7/10)
+{
+    .alertStyle{
+        box-shadow: 1px 10px 5px 1px rgba(95, 225, 97, 0.832);
+        color: black;
+        top: 40%;
+        width: 40%;
+        left: 30%;
+
+    } 
+    .alertStyle button{
+        color: black;
+        width: 45%;
+
+    }
+}

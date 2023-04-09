@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+.JoinPage{
+    background-color: rgba(30, 29, 29, 0.948);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.JoinContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align items se veritcally center hota hai par yaha par horizontally hora hai qki flex direction column hai or normally justify content se horizontally center hota hai*/
+    
+}
+.JoinContainer>img{
+  width: 10vmax;  
+}
+
+.JoinContainer>h1{
+  color: yellow;
+  font-size: 2.5vmax;
+  width: 25vmax;  
+  border-bottom: 0.2vmax solid white;
+  text-align: center;
+  padding: 1vmax;
+}
+#JoinInput{
+  width: 25vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.7vmax;
+  margin: 2vmax;
+}
+.Joinbtn{
+  color: white;
+  background-color: crimson;
+  width: 25vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.7vmax;
+  margin: 2vmax;
+  transition: all 0.3s;
+}
+.Joinbtn:hover{
+cursor: pointer;
+background-color: rgb(144, 13, 39);
+}
